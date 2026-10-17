@@ -1,8 +1,8 @@
 # Inventory Management System
 
-A Python inventory management application built with Flask. It provides REST API endpoints for managing inventory and integrates with the Open Food Facts API to retrieve product information by barcode.
+This is a Python inventory management application built with Flask. It provides REST API endpoints for managing inventory and integrates with the Open Food Facts API to retrieve product information by barcode.
 
-## Features
+ # Features
 
 - View all inventory items.
 - Retrieve an item by ID.
@@ -15,13 +15,13 @@ A Python inventory management application built with Flask. It provides REST API
 - Manage inventory through a command-line interface (CLI).
 - Automated tests using pytest and mocked external API responses.
 
-## Requirements
+# Requirements
 
 - Python 3
 - pip
 - Internet connection for Open Food Facts integration
 
-## Installation
+# Installation
 
 Clone or download this project, then navigate into its directory.
 
@@ -58,18 +58,6 @@ python3 cli.py
 
 Follow the menu instructions.
 
-## API Endpoints
-
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | `/inventory` | List all inventory items |
-| GET | `/inventory/<item_id>` | Retrieve an item by ID |
-| POST | `/inventory` | Add an item |
-| PATCH | `/inventory/<item_id>` | Update an item |
-| DELETE | `/inventory/<item_id>` | Delete an item |
-| GET | `/inventory/search/<barcode>` | Search Open Food Facts by barcode |
-| GET | `/inventory/search/name/<name>` | Search Open Food Facts by name |
-| POST | `/inventory/import/<barcode>` | Import a product by barcode |
 
 ### Example: Add an inventory item
 
